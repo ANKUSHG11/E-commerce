@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wear Shop 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 26px;
+            letter-spacing: 1px;
+        }
+
+        .product-section {
+            margin: 50px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .product-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: left;
+            color: #333;
+        }
+
+        .products-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 25px;
+        }
+
+        .product-card {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            flex: 1 1 calc(25% - 20px);
+            padding: 10px;
+           /* min-width: 250px;
+            transition: transform 0.3s ease;
+            overflow: hidden;*/
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+          /*  object-fit: cover;*/
+        }
+
+        .product-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-details h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            font-size: 18px;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #1ebe5d;
+        }
+        
+@media (max-width: 768px) {
+    .product-card {
+        flex: 1 1 calc(50% - 20px); /* Tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+        flex: 1 1 100%; /* Mobile */
+    }
+}
+    </style>
+</head>
+<body>
+
+<header>
+    My Wear Shop
+</header>
+
+<!-- T-Shirts Section -->
+<section class="product-section">
+    <h2>T-Shirts</h2>
+    <div class="products-row">
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-1.jpg" alt="T-Shirt">
+            <div class="product-details">
+                <h3>Classic T-Shirt</h3>
+                <p>₹499</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20T-Shirt" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-2.jpg" alt="T-Shirt">
+            <div class="product-details">
+                <h3>Classic T-Shirt</h3>
+                <p>₹499</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20T-Shirt" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-3.jpg" alt="T-Shirt">
+            <div class="product-details">
+                <h3>Classic T-Shirt</h3>
+                <p>₹499</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20T-Shirt" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-4.jpg" alt="T-Shirt">
+            <div class="product-details">
+                <h3>Classic T-Shirt</h3>
+                <p>₹499</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20T-Shirt" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <!-- Repeat more T-Shirts cards as needed -->
+    </div>
+</section>
+
+<!-- Hoodies Section -->
+<section class="product-section">
+    <h2>Hoodies</h2>
+    <div class="products-row">
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-5.jpg" alt="Hoodie">
+            <div class="product-details">
+                <h3>Premium Hoodie</h3>
+                <p>₹999</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Hoodie" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-6.jpg" alt="Hoodie">
+            <div class="product-details">
+                <h3>Premium Hoodie</h3>
+                <p>₹999</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Hoodie" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-7.jpg" alt="Hoodie">
+            <div class="product-details">
+                <h3>Premium Hoodie</h3>
+                <p>₹999</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Hoodie" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-8.jpg" alt="Hoodie">
+            <div class="product-details">
+                <h3>Premium Hoodie</h3>
+                <p>₹999</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Hoodie" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Caps Section -->
+<section class="product-section">
+    <h2>Caps</h2>
+    <div class="products-row">
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-9.jpg" alt="Cap">
+            <div class="product-details">
+                <h3>Stylish Cap</h3>
+                <p>₹299</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Cap" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-10.jpg" alt="Cap">
+            <div class="product-details">
+                <h3>Stylish Cap</h3>
+                <p>₹299</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Cap" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-11.jpg" alt="Cap">
+            <div class="product-details">
+                <h3>Stylish Cap</h3>
+                <p>₹299</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Cap" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="c:\Users\Admin\Downloads\img-12.jpg" alt="Cap">
+            <div class="product-details">
+                <h3>Stylish Cap</h3>
+                <p>₹299</p>
+                <a class="whatsapp-btn" href="https://wa.me/917599830548?text=Hi!%20I%20want%20to%20buy%20Classic%20Cap" target="_blank">Order on WhatsApp</a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+</body>
+</html>
